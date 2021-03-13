@@ -1,10 +1,11 @@
 import React, {useContext} from "react";
 import {
+    Text,
     StyleSheet,
     TouchableOpacity
 } from "react-native";
 import {withNavigation} from "react-navigation";
-
+import Spacer from "./Spacer";
 const NavLink = ({navigation, text, routeName})=>{
 return ( 
     <>

@@ -8,7 +8,7 @@ import AuthForm from "../components/AuthForm";
 import NavLink from "../components/NavLink";
 import { NavigationEvents } from "react-navigation";
 const SignupScreen= ({navigation})=>{
-    const {state, signup}= useContext(AuthContext);
+    const {state, signup, clearErrorMessage}= useContext(AuthContext);
     return ( 
         <View style={styles.container}>
              <NavigationEvents

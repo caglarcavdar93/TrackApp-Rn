@@ -11,4 +11,4 @@ const styles= StyleSheet.create({
     }
 });
 
-export default Spacer
+export default Spacer;
